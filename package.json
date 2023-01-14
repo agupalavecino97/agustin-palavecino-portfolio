@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "gh-pages -d di"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.0",
