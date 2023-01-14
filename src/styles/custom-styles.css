@@ -1,0 +1,119 @@
+/* gradient heading */
+.main-heading {
+  display: inline-block;
+  margin: 2rem 0;
+  font-style: normal;
+  font-weight: 600;
+  background: linear-gradient(
+    89.81deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 150% 150%;
+  animation: gradient 15s ease infinite;
+  line-height: 1.2;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cv-button p {
+    font-weight: 600;
+    color: #eee;
+}
+
+.cv-button:hover p {
+    font-weight: 600;
+    background: linear-gradient(
+      89.81deg,
+      #9845e8 -1.72%,
+      #33d2ff 54.05%,
+      #dd5789 99.78%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* background-size: 150% 150%; */
+    animation: gradient 15s ease infinite;
+    /* line-height: 1.2; */
+}
+
+
+.card-expand-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3em;
+  color: #eee;
+  line-height: 1.2;
+}
+
+
+.proyecto-tecnologia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proyecto-tecnologia span {
+  color: "eee";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #eee;
+  line-height: 1.2;
+}
+.proyecto-tecnologia img {
+  height: 48px;
+  width: 48px;
+}
+
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills img {
+  height: 4em;
+  width: 4em;
+}
+
+
+.skillsSection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.skillsSection img {
+  height: 6em;
+  width: 6em;
+}
+
+.skillsSection p {
+  color: #eee;
+}
+
+html {
+  scroll-behavior: smooth;
+}

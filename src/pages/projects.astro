@@ -1,0 +1,27 @@
+---
+import { info } from "@data";
+
+import ProjectsWrapperExpanded from "@components/general/ProjectsWrapperExpanded.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+
+const Projects = info.projects.map((project) => project);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Poryectos"}
+      description={"Todos los proyectos con su descripción."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Proyectos</h1>
+      <ProjectsWrapperExpanded projects={Projects} />
+    </Layout>
+  </body>
+</html>

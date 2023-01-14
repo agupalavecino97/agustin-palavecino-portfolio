@@ -1,0 +1,19 @@
+---
+import { ISkills } from "@types";
+import "../../styles/custom-styles.css";
+
+const { skills } = Astro.props as ISkills;
+---
+
+<section class="flex items-start justify-between flex-col sm:flex-row dark:text-light">
+  <div>
+    <h2 class="w-[15rem] mt-16">HABILIDADES</h2>
+    <a href="/skills"> <h5 class="w-[15rem] mt-17 text-light"> VER TODAS </h5>  </a>
+  </div>  
+  <!-- <h2 class="w-[15rem] mt-16">HABILIDADES</h2> -->
+  
+  <div class="w-full skills">
+    {skills.map((skill) => <img class="my-16" src={skill.url} alt={skill.name}>
+    )}
+  </div>
+</section>

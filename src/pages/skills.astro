@@ -1,0 +1,34 @@
+---
+import { info } from "@data";
+
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+import SkillSection from "@components/general/SkillSection.astro";
+const frontend = info.frontend_skills.map((skill) => skill);
+const backend = info.backend_skills.map((skill) => skill);
+const database = info.database_skills.map((skill) => skill);
+const other = info.other_skills.map((skill) => skill);
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Poryectos"}
+      description={"Todos los proyectos con su descripción."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Habilidades</h1>
+      <h2 style="line-height: 1.2; color: #eee">Lenguajes de programación, frameworks, librerias y herramientas</h2>
+      <SkillSection title={'Frontend'} skills={frontend} />
+      <SkillSection title={'Backend'} skills={backend} />
+      <SkillSection title={'Base de Datos'} skills={database} />
+      <SkillSection title={'Otras'} skills={other} />
+    </Layout>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+import { ISkillsProps } from "@types";
+import "../../styles/custom-styles.css"
+const { title, skills } = Astro.props as ISkillsProps;
+---
+<section class="flex items-start justify-between flex-col sm:flex-row dark:text-light">
+  <h2 class="w-[15rem] mt-16">{title}</h2>
+  <div class="w-full grid grid-cols-3 gap-4">
+        {
+            skills.map((skill) => (
+                <div class="skillsSection my-16"> 
+                    <h2> {skill.name}</h2>
+                    <img class="my-4" src={skill.url} alt={skill.name}>
+                    <p> {skill.time}</p>
+                </div>
+                
+                ))
+        }   
+
+  </div>
+</section>
