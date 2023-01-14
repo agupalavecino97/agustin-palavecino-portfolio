@@ -136,7 +136,7 @@ export const info = {
       title: "Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/projects/portfolio.png",
-      githubUrl: "https://github.com/agupalavecino97/agutin-palavecino-portfolio",
+      githubUrl: "https://github.com/agupalavecino97/agustin-palavecino-portfolio",
       liveUrl: "https://astro-portfolio-uzair.vercel.app/",
       tecnologias: ["assets/images/logos/astro.png", "assets/images/logos/html.png", "assets/images/logos/css.png", "/assets/images/logos/javascript.png", "assets/images/logos/tailwind.png" ],
       description: "Landing page creada con la herramienta Astro donde se muestra mis proyectos y experiencia como desarrollador web.",
