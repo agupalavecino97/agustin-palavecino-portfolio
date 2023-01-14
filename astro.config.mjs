@@ -16,4 +16,6 @@ export default defineConfig({
     }),
     robotsTxt(),
   ],
+  site: 'https://agupalavecino97.github.io',
+  base: '/agustin-palavecino-portfolio'
 });
