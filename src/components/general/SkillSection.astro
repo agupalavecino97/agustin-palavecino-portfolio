@@ -12,6 +12,7 @@ const { title, skills } = Astro.props as ISkillsProps;
                     <h2> {skill.name}</h2>
                     <img class="my-4" src={skill.url} alt={skill.name}>
                     <p> {skill.time}</p>
+                    <p> <strong> {skill.amountProjects > 0 ? skill.amountProjects: ''} {skill.amountProjects > 1 ? 'Proyectos' : skill.amountProjects == 1 ? 'Proyecto' : 'Competitive Programming'} </strong></p>
                 </div>
                 
                 ))

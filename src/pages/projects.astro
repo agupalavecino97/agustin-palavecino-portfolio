@@ -12,7 +12,7 @@ const Projects = info.projects.map((project) => project);
 <html lang="en">
   <head>
     <MetaHead
-      title={"Poryectos"}
+      title={"Proyectos"}
       description={"Todos los proyectos con su descripción."}
       ogImageUrl={"/assets/images/profile.png"}
     />
@@ -20,7 +20,7 @@ const Projects = info.projects.map((project) => project);
 
   <body>
     <Layout>
-      <h1 style="line-height: 1.2;">Proyectos</h1>
+      <h1 style="line-height: 1.2;">Proyectos ({Projects.length})</h1>
       <ProjectsWrapperExpanded projects={Projects} />
     </Layout>
   </body>

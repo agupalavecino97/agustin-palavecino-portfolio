@@ -24,6 +24,11 @@ export interface IExperiences {
   details: IExperience[];
 }
 
+export interface ITechnologies {
+  name: string;
+  logo: string;
+}
+
 export interface IProject {
   title: string;
   isFeatured: boolean;
@@ -31,7 +36,7 @@ export interface IProject {
   githubUrl: string;
   youtubeUrl: string;
   liveUrl: string;
-  tecnologias: string[];
+  tecnologias: ITechnologies[];
   description: string;
 }
 export interface IProjects {
@@ -46,6 +51,7 @@ export interface ISkill {
   name: string;
   url: string;
   time: string;
+  amountProjects: number;
 }
 
 export interface ISkills {

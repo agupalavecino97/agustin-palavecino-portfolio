@@ -8,7 +8,7 @@ import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Skills from "@components/home/Skills.astro";
 const featureProjects = info.projects.map((project, index) => {
-  if (project.isFeatured && index < 6) {
+  if (project.isFeatured) {
     return project;
   }
 });
@@ -31,7 +31,7 @@ const featureProjects = info.projects.map((project, index) => {
       <Experience title={"EXPERIENCIA"} details={info.experience} />
       <Experience title={"EDUCACIÓN"} details={info.education} />
       <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">PROYECTOS</h2>
+        <h2 class="w-[15rem] dark:text-light mt-16">PROYECTOS ({featureProjects.length})</h2>
         <ProjectsWrapper projects={featureProjects} />
       </section>
     </Layout>

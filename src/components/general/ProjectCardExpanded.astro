@@ -5,7 +5,7 @@ const { title, thumbnail, liveUrl, githubUrl, youtubeUrl, tecnologias, descripti
 import "../../styles/custom-styles.css";
 ---
 
-<article class="w-full max-h-[30rem] overflow-hidden relative group">
+<article class="w-full max-h-[35rem] overflow-hidden relative group">
   <h2 class="card-expand-title">{title}</h2>
 
   <div class="grid md:grid-cols-2 grid-cols-1 gap-4 mb-16 mt-8">
@@ -88,9 +88,15 @@ import "../../styles/custom-styles.css";
       </div>
       <div class="proyecto-tecnologia mt-2">
             <span> Tecnologías </span>  
-            {tecnologias.map( (tec) => (
-              <img src={tec} alt={tec}>
-            ))}
+            {
+              tecnologias.map( (tec) => (
+                <div class="proyecto-tecnologia-logo">
+                  <img src={tec.logo} alt={tec.name}>
+                  <h5> {tec.name} </h5>
+                </div>
+               
+              ))
+            }
       </div>
     </div>
   </div>
