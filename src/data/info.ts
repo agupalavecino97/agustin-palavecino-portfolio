@@ -13,7 +13,7 @@ export const info = {
     
     {
       name: "Vitrinia",
-      resume: "Aplicaciín de envíos online",
+      resume: "Aplicación de envíos online",
       startDate: "Enero 2022",
       endDate: "Septiembre 2022",
       experiencia: true,
@@ -24,7 +24,18 @@ export const info = {
         "- Desarrollo y mantenimiento del servidor usando Node.js, Express y Sequelize",
         "- Uso de la metodología ágil Scrum con la herramienta Jira.",      ],
     },
-
+    {
+      name: "Universidad Nacional de Santiago del Estero",
+      resume: "Ayudante estudiantil de la catedra de Fundamentos de la Programación",
+      startDate: "Enero 2022",
+      endDate: "Enero 2023",
+      experiencia: false,
+      description: [
+        "- Clases de apoyo semanales tanto teóricas como prácticas sobre temas fundamentales de la informática como estructuras de datos, algoritmos, tipos de datos, etc.",
+        "- Apoyo en el taller de la materia donde se desarrollaban programas en Python.",
+        "- Asistencia en los exámenes parciales donde resolvía dudas a los estudiantes.",
+      ],
+    },
     {
       name: "Gestory Shop",
       resume: "Sistema web de catálogo online",
