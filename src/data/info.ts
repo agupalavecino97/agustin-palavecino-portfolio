@@ -176,6 +176,21 @@ export const info = {
       description: "Participación en la plataforma NoCountry, donde forme parte de un equipo multidiciplinario para la creación de la web app GoodLearner (en la cual realice tareas tanto de Frontend como de Backend), un sistema web para la administración de una escuela, con cuatro perfiles diferentes (administrador, profesor, tutor y estudiante), permite gestionar las diferentes comisiones, materias, profesores, asignar notas, ver el progreso de los alumnos, gestionar los diferentes usuarios, entre otras funcionalidades.",
     },
     {
+      title: "No Country Management System",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/nocountry.png",
+      githubUrl: "https://github.com/No-Country/S7-05-t-Angular",
+      liveUrl: "https://s7-05-t-angular.vercel.app/",
+      tecnologias: [
+          {name: "Angular", logo: "/assets/images/logos/angular.png"},
+          {name: "Material Angular", logo: "/assets/images/logos/material-angular.png"},
+          {name: "NodeJs", logo: "/assets/images/logos/nodejs.png"},
+          {name: "Sequelize", logo: "/assets/images/logos/sequelize.png"},
+          {name: "PostgreSQL", logo: "/assets/images/logos/PostgreSQL.png"},
+        ],
+      description: "Participación en la plataforma NoCountry, donde forme parte de un equipo multidiciplinario para la creación de la web app No Country Management System (en la cual realice tareas tanto de Frontend como de Backend), un sistema web para ayudar a un teamLeader de un equipo a gestionar los miembos, asistencia semanal y para ayudar a los Administradores a gestionar TeamLeaders.",
+    },
+    {
       title: "Gestory Landing",
       isFeatured: true,
       thumbnail: "/assets/images/projects/gestory-landing.png",
