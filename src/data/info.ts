@@ -9,8 +9,18 @@ export const info = {
    Comencé a introducirme en el desarrollo web 3 años atrás, con demostrada experiencia tanto en Frontend como en Backend.
   `,
   experience: [
-
-    
+    {
+      name: "Freelance",
+      resume: "Desarrollo web full stack",
+      startDate: "Octubre 2022",
+      endDate: "Presente",
+      experiencia: true,
+      tecnologias: [" ReactJs", ", Angular", ", NodeJs", ", Express.js", ", PHP", ", java", ", MySQL"],
+      description: [
+        "- Desarrollo y mantenimiento de componentes UI usando Angular y React.",
+        "- Desarrollo y mantenimiento de APIs usando PHP, Java, Node.js", 
+      ],
+    },
     {
       name: "Vitrinia",
       resume: "Aplicación de envíos online",
