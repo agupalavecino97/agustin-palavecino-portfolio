@@ -9,11 +9,23 @@ export const info = {
    Comencé a introducirme en el desarrollo web 3 años atrás, con demostrada experiencia tanto en Frontend como en Backend.
   `,
   experience: [
+     {
+      name: "Norte Beneficios",
+      resume: "Desarrollo web frontend y desarrollo mobile",
+      startDate: "Julio 2023",
+      endDate: "Presente",
+      experiencia: true,
+      tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter"],
+      description: [
+        "- Migración de un sistema de escritorio para la gestión de un negocio funebre a un sistema web usando PowerBuilder.",
+        "- Desarrollo de una APP mobile de desceuntos para socios usando Flutter", 
+      ],
+    },
     {
       name: "Freelance",
       resume: "Desarrollo web full stack",
       startDate: "Octubre 2022",
-      endDate: "Presente",
+      endDate: "Junio 2023",
       experiencia: true,
       tecnologias: [" ReactJs", ", Angular", ", NodeJs", ", Express.js", ", PHP", ", java", ", MySQL"],
       description: [
