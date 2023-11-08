@@ -18,7 +18,7 @@ export const info = {
       tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter"],
       description: [
         "- Migración de un sistema de escritorio para la gestión de un negocio funebre a un sistema web usando PowerBuilder.",
-        "- Desarrollo de una APP mobile de desceuntos para socios usando Flutter", 
+        "- Desarrollo de una APP mobile de descuentos para socios usando Flutter", 
       ],
     },
     {
@@ -152,6 +152,16 @@ export const info = {
       ],
       description: "Sistema web de catálogo online y ventas por WhatsApp. Acelera el proceso de venta online generando un pedido de productos que se envía por WhatsApp, el comercio puede gestionar sus ventas y se puede conectar con Gestory para tener todas sus características.",
     },
+     {
+      title: "Club Norte",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/club-norte.png",
+      liveUrl: "https://clubnorte.com.ar",
+      tecnologias: [
+          {name: "Flutter", logo: "/assets/images/logos/flutter.png"},
+      ],
+      description: "App mobile desarrollada en flutter, donde socios puedes ver descuentos en comercios, filtrarlos, buscarlos, ver los descuentos cerca en el mapa, canjear un descuento, ver su perfíl, recibir notificaciones.",
+    },
     {
       title: "CR23",
       isFeatured: true,
@@ -270,18 +280,18 @@ export const info = {
     },
   ],
   principal_skills: [
-    {
-      name: "HTML",
-      url: "/assets/images/logos/html.png",
-      time: "3",
-      amountProjects: "10",
-    },
-    {
-      name: "CSS",
-      url: "/assets/images/logos/css.png",
-      time: "3",
-      amountProjects: "10",
-    },
+    // {
+    //   name: "HTML",
+    //   url: "/assets/images/logos/html.png",
+    //   time: "3",
+    //   amountProjects: "10",
+    // },
+    // {
+    //   name: "CSS",
+    //   url: "/assets/images/logos/css.png",
+    //   time: "3",
+    //   amountProjects: "10",
+    // },
     {
       name: "Javascript",
       url: "/assets/images/logos/javascript.png",
@@ -294,6 +304,18 @@ export const info = {
       time: "3",
       amountProjects: "2",
     },
+    {
+      name: "React",
+      url: "/assets/images/logos/react.png",
+      time: "2",
+      amountProjects: "3",
+    }, 
+    {
+      name: "Flutter",
+      url: "/assets/images/logos/flutter.png",
+      time: "1",
+      amountProjects: "1",
+    }, 
     {
       name: "Nodejs",
       url: "/assets/images/logos/nodejs.png",
@@ -338,7 +360,13 @@ export const info = {
       time: "1 año",
       amountProjects: "4",
     },
-     {
+    {
+      name: "Flutter",
+      url: "/assets/images/logos/flutter.png",
+      time: "1 año",
+      amountProjects: "1",
+    },
+    {
       name: "Ionic",
       url: "/assets/images/logos/ionic.png",
       time: "1 año",
