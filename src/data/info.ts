@@ -22,6 +22,34 @@ export const info = {
       ],
     },
     {
+      name: "Gestory",
+      resume: "Sistema web de gestión comercial",
+      startDate: "Enero 2020",
+      endDate: "Presente",
+      experiencia: true,
+      tecnologias: [" Angular", ", NodeJs", ", Express.js", ", MySQL"],
+      description: [
+        "- Desarrollo de componentes UI usando Angular, Bootstap, ngx-bootstrap y Material Angular.",
+        "- Participación en el análisis y diseño de soluciones para múltiples requerimientos de usuario.",
+        "- Desarrollo de múltiples endpoints con diferentes funcionalidades usando Node.js y Express.",
+        "- Uso de la metodología ágil Kanban con la herramienta Trello.",
+      ],
+    },
+    {
+      name: "Gestory Shop",
+      resume: "Sistema web de catálogo online",
+      startDate: "Junio 2021",
+      endDate: "Presente",
+      experiencia: true,
+      tecnologias: [" Ionic", ", NodeJs", ", Express.js", ", MySQL"],
+      description: [
+        "- Desarrollo de componentes UI usando Ionic UI Components.",
+        "- Participación en el análisis y diseño de soluciones para múltiples requerimientos de usuario.",
+        "- Desarrollo de múltiples endpoints con diferentes funcionalidades usando Node.js y Express.",
+        "- Uso de la metodología ágil Kanban con la herramienta Trello.",
+      ],
+    },
+    {
       name: "Freelance",
       resume: "Desarrollo web full stack",
       startDate: "Octubre 2022",
@@ -58,36 +86,6 @@ export const info = {
         "- Asistencia en los exámenes parciales donde resolvía dudas a los estudiantes.",
       ],
     },
-    {
-      name: "Gestory Shop",
-      resume: "Sistema web de catálogo online",
-      startDate: "Junio 2021",
-      endDate: "Presente",
-      experiencia: true,
-      tecnologias: [" Ionic", ", NodeJs", ", Express.js", ", MySQL"],
-      description: [
-        "- Desarrollo de componentes UI usando Ionic UI Components.",
-        "- Participación en el análisis y diseño de soluciones para múltiples requerimientos de usuario.",
-        "- Desarrollo de múltiples endpoints con diferentes funcionalidades usando Node.js y Express.",
-        "- Uso de la metodología ágil Kanban con la herramienta Trello.",
-      ],
-    },
-
-    {
-      name: "Gestory",
-      resume: "Sistema web de gestión comercial",
-      startDate: "Enero 2020",
-      endDate: "Presente",
-      experiencia: true,
-      tecnologias: [" Angular", ", NodeJs", ", Express.js", ", MySQL"],
-      description: [
-        "- Desarrollo de componentes UI usando Angular, Bootstap, ngx-bootstrap y Material Angular.",
-        "- Participación en el análisis y diseño de soluciones para múltiples requerimientos de usuario.",
-        "- Desarrollo de múltiples endpoints con diferentes funcionalidades usando Node.js y Express.",
-        "- Uso de la metodología ágil Kanban con la herramienta Trello.",
-      ],
-    },
-
   ],
 
   education: [
