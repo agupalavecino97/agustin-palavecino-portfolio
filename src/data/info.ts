@@ -15,10 +15,13 @@ export const info = {
       startDate: "Julio 2023",
       endDate: "Presente",
       experiencia: true,
-      tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter"],
+      tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter", ", Dart", ", MySQL", ", Windows Server 2012", ", WordPress"],
       description: [
-        "- Migración de un sistema de escritorio para la gestión de un negocio funebre a un sistema web usando PowerBuilder.",
-        "- Desarrollo de una APP mobile de descuentos para socios usando Flutter", 
+        "- Migración de un sistema de escritorio para la gestión de un negocio funebre a un sistema web.",
+        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile de descuentos para socios usando Flutter", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una página web usando HTML, CSS, JS", 
+        "- Mantenimiento de una página web usando WordPress", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile para la autogestión de socios usando Flutter", 
       ],
     },
     {
@@ -150,15 +153,38 @@ export const info = {
       ],
       description: "Sistema web de catálogo online y ventas por WhatsApp. Acelera el proceso de venta online generando un pedido de productos que se envía por WhatsApp, el comercio puede gestionar sus ventas y se puede conectar con Gestory para tener todas sus características.",
     },
-     {
+    {
       title: "Club Norte",
       isFeatured: true,
       thumbnail: "/assets/images/projects/club-norte.png",
-      liveUrl: "https://clubnorte.com.ar",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.jkmate.clubnorte&hl=es&gl=US",
       tecnologias: [
           {name: "Flutter", logo: "/assets/images/logos/flutter.png"},
       ],
       description: "App mobile desarrollada en flutter, donde socios puedes ver descuentos en comercios, filtrarlos, buscarlos, ver los descuentos cerca en el mapa, canjear un descuento, ver su perfíl, recibir notificaciones.",
+    },
+    {
+      title: "Norte Beneficios App",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/norte-beneficios-app.png",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.jkmate.nortebeneficios",
+      tecnologias: [
+          {name: "Flutter", logo: "/assets/images/logos/flutter.png"},
+      ],
+      description: "App mobile desarrollada en flutter, donde socios puedes autogetionarse, crer autorizaciones médicas, subir documentación, pagar sus cuotas, ver su plan, recibir notificaciones, ver la cartilla médica, etc.",
+    },
+    {
+      title: "Club Norte Landing",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/club-norte-landing.png",
+      liveUrl: "https://clubnorte.com.ar",
+      tecnologias: [
+        {name: "HTML", logo: "/assets/images/logos/html.png"},
+        {name: "CSS", logo: "/assets/images/logos/css.png"},
+        {name: "Javascript", logo: "/assets/images/logos/javascript.png"},
+        {name: "Bootstrap", logo: "/assets/images/logos/bootstrap.png"},
+      ],
+      description: "Página web coorporativa donde se muestra información de Club Norte, comercios adheridos, beneficios de los comercios e información en general.",
     },
     {
       title: "CR23",
