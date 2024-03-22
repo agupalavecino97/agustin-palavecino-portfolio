@@ -129,7 +129,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/projects/gestory.png",
       liveUrl: "https://admin.gestory.app",
-      youtubeUrl: "https://www.youtube.com/watch?v=IInwzHK_46Y",
+      // youtubeUrl: "https://www.youtube.com/watch?v=IInwzHK_46Y",
       tecnologias: [
           {name: "Angular", logo: "/assets/images/logos/angular.png"},
           // {name: "Bootstrap", logo: "/assets/images/logos/bootstrap.png"},
