@@ -338,7 +338,7 @@ export const info = {
       name: "Flutter",
       url: "/assets/images/logos/flutter.png",
       time: "1",
-      amountProjects: "1",
+      amountProjects: "4",
     }, 
     {
       name: "Nodejs",
