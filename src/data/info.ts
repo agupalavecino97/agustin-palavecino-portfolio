@@ -18,10 +18,13 @@ export const info = {
       tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter", ", Dart", ", MySQL", ", Windows Server 2012", ", WordPress"],
       description: [
         "- Migración de un sistema de escritorio para la gestión de un negocio funebre a un sistema web.",
-        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile de descuentos para socios usando Flutter", 
-        "- Desarrollo, diseño, despliegue y mantenimiento de una página web usando HTML, CSS, JS", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile de descuentos para socios usando Flutter. Club Norte", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una página web usando HTML, CSS, JS. Club Norte Landing www.clubnorte.com.ar", 
         "- Mantenimiento de una página web usando WordPress", 
-        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile para la autogestión de socios usando Flutter", 
+        "- Mantenimiento y creación de nuevas features para una App mobile para la autogestión de socios usando Flutter. Norte Beneficios App", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile nueva para la autogestión de socios usando Flutter. Norte Salud", 
+        "- Desarrollo, diseño, despliegue y mantenimiento de una App mobile nueva para la autogestión de prestadores de medicina usando Flutter. Norte Salud Prestadores", 
+        "- Configuración de servidores, dominios, certificados SSL, hostings, para todas las anteriores plataformas", 
       ],
     },
     {
@@ -139,6 +142,26 @@ export const info = {
           {name: "Mysql", logo: "/assets/images/logos/mysql.png"},
         ],
       description: "Sistema web de gestión comercial integral con múltiples módulos. Control de stock, registro de ventas, facturación electrónica conectada con AFIP, control de caja, control de clientes, control de proveedores, generación de presupuestos, reportes, entre otros módulos.",
+    },
+    {
+      title: "Norte Salud",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/norte-salud.png",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.norte.nortesalud&hl=en_US",
+      tecnologias: [
+          {name: "Flutter", logo: "/assets/images/logos/flutter.png"},
+        ],
+      description: "App mobile destinada para socios de un plan de medicina y bienestar, donde los mismos pueden autogestionar la compra de ordenes, pago de cuotas mensuales, ver la cartilla de prestadores, ver información de su perfil, entre otras funcionalidades. \nParticipe en todo el proceso de desarrollo de la app, desde el análisis de necesidades de sistema o usuario, el diseño de las pantallas junto con un diseñador, el desarrollo integral de todas las funcionalidades y el deploy en Play Store y App Store",
+    },
+    {
+      title: "Norte Salud Prestadores",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/norte-salud-prestadores.png",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.norte.norteSaludPrestadores",
+      tecnologias: [
+          {name: "Flutter", logo: "/assets/images/logos/flutter.png"},
+        ],
+      description: "App mobile destinada para prestadores médicos, donde los mismos pueden gestionar sus consultas médicas, crear ordenes de pago, ver su historial de pagos y de consultas y gestionar su información. \nParticipe en todo el proceso de desarrollo de la app, desde el análisis de necesidades de sistema o usuario, el diseño de las pantallas junto con un diseñador, el desarrollo integral de todas las funcionalidades y el deploy en Play Store y App Store",
     },
     {
       title: "Gestory Shop",
