@@ -352,12 +352,6 @@ export const info = {
       amountProjects: "2",
     },
     {
-      name: "React",
-      url: "/assets/images/logos/react.png",
-      time: "2",
-      amountProjects: "3",
-    }, 
-    {
       name: "Flutter",
       url: "/assets/images/logos/flutter.png",
       time: "1",
@@ -369,6 +363,12 @@ export const info = {
       time: "3",
       amountProjects: "6",
     },
+    {
+      name: "React",
+      url: "/assets/images/logos/react.png",
+      time: "2",
+      amountProjects: "3",
+    }, 
     {
       name: "MySQL",
       url: "/assets/images/logos/mysql.png",
@@ -402,17 +402,18 @@ export const info = {
       amountProjects: "2",
     },
     {
+      name: "Flutter",
+      url: "/assets/images/logos/flutter.png",
+      time: "1 año",
+      amountProjects: "4",
+    },
+    {
       name: "Reactjs",
       url: "/assets/images/logos/react.png",
       time: "1 año",
       amountProjects: "4",
     },
-    {
-      name: "Flutter",
-      url: "/assets/images/logos/flutter.png",
-      time: "1 año",
-      amountProjects: "1",
-    },
+
     {
       name: "Ionic",
       url: "/assets/images/logos/ionic.png",
