@@ -9,11 +9,22 @@ export const info = {
    Comencé a introducirme en el desarrollo web 3 años atrás, con demostrada experiencia tanto en Frontend como en Backend.
   `,
   experience: [
+    {
+      name: "Teamknowlogy",
+      resume: "Desarrollo web fullstack",
+      startDate: "Septiembre 2024",
+      endDate: "Actualidad",
+      experiencia: true,
+      tecnologias: [" Angular", ", Nestjs", ", Nodejs", ", Angular Material", ", Tailwind", ", MySQL"],   
+      description: [
+        "- Mantenimiento y desarrollo de nuevas funcionalidades para sistemas web."
+      ],
+    },
      {
       name: "Norte Beneficios",
       resume: "Desarrollo web frontend y desarrollo mobile",
       startDate: "Julio 2023",
-      endDate: "Presente",
+      endDate: "Septiembre 2024",
       experiencia: true,
       tecnologias: [" Javascript", ", HTML", ", CSS", ", Bootstrap", ", Flutter", ", Dart", ", MySQL", ", Windows Server 2012", ", WordPress"],
       description: [
